@@ -1,0 +1,106 @@
+Estudio de las variables numéricas
+====================================
+
+Las variables numéricas. Se dividen en dos grupos.
+Variables numéricas continuas. Entre estas se encuentran la edad y el peso.
+Si los datos de la variable numérica presentan poca frecuencia de aparición, es decir los datos casi no se repiten, tal como sucede con la variable peso del archivo 1 de clase. Con este tipo de variable, en caso de querer representar los datos a través de un diagrama de barras, no resultaría un grafico muy apropiado, porque no deja ver alguna forma especial, además el número de barras se pasa de 22 y en Estadística solo se permiten gráficas con mínimo 2 barras (por ejemplo, para la variable sexo que tiene dos categorías) y máximo 22. Por esta razón se hace conveniente establecer grupos o clases para que se genere una grafica que si permita ver la descripción de los datos a través de un histograma de barras. Hay que recordar que en Estadística se pretende observar la forma que describen un grupo de datos, para encontrarle alguna similitud con un tipo de distribución en especial (la normal, la Ji cuadrada, una exponencial etc-temas que veremos en detalle en lecciones posteriores).
+Para variables numéricas que presenten poca frecuencia de aparición en los datos, toca agrupar los datos en clases, generalmente se trabajan con histogramas que tengan 4, 6 6 o hasta 7 clases, en algunas ocasiones pueden realizarse histogramas con más clases, pero esto es cuando la variable tiene muchos datos.
+ 
+**Histograma de barras**
+
+Un histograma es un gráfico de barras de una distribución de frecuencia. En el eje X tenemos normalmente el intervalo de clases y en la Y el número de observaciones.
+
+.. figure:: /images/capitulo_1/Guia_2/1_Histograma.png
+   :alt: ciencias
+   :scale: 80%
+   :align: center
+   :name: fig:D1_Histograma
+
+   Histograma de barras
+
+
+El histograma de frecuencias consiste en un conjunto de rectángulos con:
+
+    1. Clases en el eje horizontal (Eje X), centros en las marcas de clase y longitudes iguales a los tamaños de los intervalos de clase.
+    2. Áreas proporcionales a las frecuencias de clase.
+
+Si los intervalos de clase tienen toda la misma anchura, las alturas de los rectángulos son proporcionales a las frecuencias de clase (frecuencias absolutas), y entonces es costumbre tomar las alturas iguales a las frecuencias de clase o frecuencias absolutas. 
+
+Procedimiento:
+
+    1. Se debe hallar en primera instancia el rango de la variable. Es decir, la diferencia entre el valor máximo y el valor mínimo (Cuartil 4 menos cuartil 0).
+    2. Luego se escoge el número de clases, hay varias formas de hacerlo, pero se prefiere que sea libremente, es decir a gusto del investigador. Algunas otras formas de escoger el número de clases son:
+
+       * :math:`\sqrt{n}` Hoy en día este procedimiento no es muy utilizado por que no es conveniente cuando el tamaño de la muestra es muy grande.
+
+         **Ejemplo:** Si :math:`n=1000`, :math:`\sqrt{1000}=31.6`. Entonces se excede el número de barras permitido.
+       * Regla de Sturges:  :math:`1 + 3.3\log N`.
+
+    3. Se realiza la tabla de frecuencias para el número de clases deseada. Si escogimos 5 clases, entonces obtendremos un histograma con 5 barras. La tabla tendría el siguiente encabezado:
+
+       .. csv-table:: Encabezado de la tabla
+          :header: "Clases", "Marcas de Clase", ":math:`n_i`", ":math:`N_i`", ":math:`h_i`", ":math:`H_i`"
+          :widths: 1,1,1,1,1,1
+          :width: 16 cm
+          :name: tab:Encabezado
+          :align: center
+
+          ,,,,,
+
+    4. Después de tener la tabla, se procede a realizar el histograma de barras.
+    5. Finalmente, las marcas de clase se deben proyectar en la parte superior de cada barra y deben realizarse dos marcas de clase más; una al comienzo (restando el ancho de clase a la primera marca de clase) y otra al final (sumando el anchote clase a la última marca de clase), estas dos últimas marcas de clase se ubican en el eje X, para finalmente unir todos los puntos y lograr así el polígono de frecuencias. Que describirá mejor el comportamiento teórico de los datos.
+
+**Tarea 1**
+
+Teniendo en cuenta la variable peso del archivo 1 usado en la guía anterior (Descarga de archivo: :download:`Archivo de datos <Descargables/Archivo_1.pdf>`) realizar: Tabla de frecuencias para datos agrupados, histograma de barras con su correspondiente polígono de frecuencias (Elaborado en Excel o en R) para 5 clases y para 10 clases.
+
+**Variables numéricas discretas**
+
+Son ejemplos de esta: el número de hermanos (variable 6 del archivo 1), el número de televisores que tenemos en la casa, el número de libros de nuestra biblioteca etc.
+Cuando las variables numéricas presentan poca frecuencia de aparición en sus datos, se hace necesario establecer clases. Tal como sucede con la variable peso del archivo 1 de clase.
+
+**Tarea 2**
+
+Teniendo en cuenta la variable peso realizar las estadísticas básicas en Excel o R (mostrar el pantallazo impreso).
+
+En el siguiente vídeo se explican claramente cómo elaborar las tablas de frecuencias para datos agrupados y a partir de esta tabla quedará muy fácil realizar el histograma de frecuencias con su respectivo polígono de frecuencias.
+
+.. raw:: html
+
+   <p align='center'><iframe width="560" height="315" src="https://www.youtube.com/embed/YIAWyP5rsSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+
+En el siguiente video se explica claramente cómo se realiza un histograma de frecuencias con su respectivo polígono de frecuencias mediante el uso de la herramienta EXCEL.
+
+.. raw:: html
+
+   <p align='center'><iframe width="560" height="315" src="https://www.youtube.com/embed/wMtfj8--Xqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+.. note::
+   ¿Qué se pretende al realizar un histograma de frecuencias?
+   Es bueno recalcar que en Estadística lo que se pretende en primera instancia con una variable numérica es hacer un análisis exploratorio de los datos para tratar de ver la forma que describe la curva o lo que se conoce como el comportamiento teórico de la curva (al representar los datos en un diagrama de barras). Generalmente la distribución con la cual uno busca una similitud inicialmente (cuando se es muy novato en estadística), Es la distribución Normal o curva Gaussiana.
+   Veamos algunas situaciones de la vida real que se comportan de manera normal y por eso la distribución de la curva o comportamiento teórico genera esta curva especial, simétrica (a = 0, coeficiente de asimetría) y una altura ideal (K = 3 (Coeficiente de curtosis) o valores entre 2.5 y 3.5 aproximadamente).
+
+**Ejemplo 1:**
+
+El coeficiente intelectual de las personas: Debe oscilar entre 118 y 119 en personas normales, un genio tiene 122 de IQ. Esta es una medida inventada por los psicólogos. La curva que describe es simétrica, ver :numref:`fig:2_Histograma_IQ`.
+
+.. figure:: /images/capitulo_1/Guia_2/2_Histograma_IQ.png
+   :alt: ciencias
+   :scale: 50%
+   :align: center
+   :name: fig:2_Histograma_IQ
+
+**Ejemplo 2:**
+
+El peso en libras de los niños al nacer (niños colombianos, por ejemplo): estos pesos oscilan entre 4.5 libras y 11 libras (niños normales) estos pesos pueden estar por debajo (de 4.5 libras) y por encima (de 11 libras). La curva que describe es simétrica.
+En general, además de poderse realizar histogramas de barras con las variables numéricas, se pueden calcular también Estadísticos básicos. Ver el siguiente vídeo explicativo:
+
+.. raw:: html
+
+   <p align='center'><iframe width="560" height="315" src="https://www.youtube.com/embed/nNr5biiWH58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+**Tarea:**
+
+Teniendo en cuenta el :download:`Archivo de datos <Descargables/Peso_Niños.xlsx>` del peso de 20 niños al nacer, realizar las estadísticas básicas.

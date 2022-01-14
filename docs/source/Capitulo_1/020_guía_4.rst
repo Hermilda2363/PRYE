@@ -1,0 +1,107 @@
+**IV. Cuarta parte**
+
+===============================
+Diagramas de Box and Whiskers
+===============================
+
+Son diagramas que como su nombre lo indican son de caja y bigotes.
+
+   * Se dibuja el eje horizontal desde :math:`Q_0` hasta :math:`Q_4`. (El rango)
+   * La caja va desde :math:`Q_1` hasta :math:`Q_3` (Rango intercuartílico)
+   * El primer bigote va desde :math:`Q_0`hasta :math:`Q_2`.
+   * El segundo bigote va desde :math:`Q_2`hasta :math:`Q_4`.
+   * La altura de la caja, la da la medida de la desviación estándar = :math:`S_{n-1}`
+   * La mediana ò :math:`Q_2`, divide a la caja en dos partes (no necesariamente iguales).
+   * La media se representa en la caja como una rayita pequeña.
+   * La moda (s) se representa(n) en la caja mediante un punto.
+   * Los límites inferior y superior nos permiten detectar si hay o no puntos atípicos o outliers.
+   * LI = Límite inferior = :math:`Q_1- 1.5\times(Q_3-Q_1)`
+   * LS = Límite superior =  :math:`Q_3+ 1.5\times(Q_3-Q_1)`.Donde 1.5 es una constante.
+
+.. note::
+
+   La forma más fácil y rápida de hallar los cuartiles es: = :math:`Q_1= \frac{1}{4}(n+1)`, :math:`Q_2= \frac{1}{2}(n+1)` y :math:`Q_3= \frac{3}{4}(n+1)`.
+
+Un ingeniero debe ser muy práctico, y esta es una forma muy sencilla de calcular los cuartiles.
+
+**Ejercicio:** Teniendo en cuenta la variable peso del archivo de clase (variable 6). Dibujar el diagrama de Box and Whiskers.
+
+**Solución:** Para la variable peso del archivo, se encontró por medio de Excel, la siguiente tabla de las estadísticas básicas para la variable peso, (ver :numref:`fig:Figura1_guía4`). Descarga de archivo: :download:`Archivo de datos <Descargables/Archivo_1.pdf>`.
+
+.. figure:: /images/capitulo_1/Guia_4/Figura1_guía4.png
+   :alt: ciencias
+   :scale: 80%
+   :align: center
+   :name: fig:Figura1_guía4
+
+   Estadísticos básicos para la variable peso
+
+
+Sin embargo, como se quiere hacer el diagrama de Box and Whiskers, los datos que proporciona Excel no son suficientes, toca encontrar otros, entonces para esto se necesita la tabla de frecuencias:
+
+**Tabla de frecuencias:** Se observa la frecuencia relativa acumulada. Hi
+Donde aparezcan los valores cercano o exacto a 0.25, se encontrará el :math:`Q_1` (cuarti1 1), donde aparezca un valor cercano o exacto a 0.50, se encontrará el :math:`Q_2` (cuartil 2); donde aparezca un valor cercano o exacto a 0.75, se encontrará el  :math:`Q_3` (cuartil 3); el primer valor corresponde al :math:`Q_0` (cuartil cero) y el último valor corresponde al :math:`Q_4` (cuartil 4), ver :numref:`fig:Figura2_guía4`
+
+.. figure:: /images/capitulo_1/Guia_4/Figura2_guía4.png
+   :alt: ciencias
+   :scale: 80%
+   :align: center
+   :name: fig:Figura2_guía4
+
+   Tabla de frecuencias para datos agrupados (variable peso)
+
+A partir de esto se pueden sacar los datos necesarios para el diagrama:
+
+:math:`Q_0=45`,  :math:`Q_1=55`, :math:`Q_2=66`, :math:`Q_3=77`, :math:`Q_4=90`; La moda: 55; Rango intercuartílico: :math:`Q_3- Q_1 =77-55=22`. :math:`LI = Q_1-1.5\times(Q_3-Q_1) = 22`, :math:`LS = Q_3+1.5\times(Q_3-Q_1) = 110`.
+Entonces el diagrama de Box and Whiskers es (ver :numref:`fig:Figura3_guía4`)
+
+.. figure:: /images/capitulo_1/Guia_4/Figura3_guía4.png
+   :alt: ciencias
+   :scale: 100%
+   :align: center
+   :name: fig:Figura3_guía4
+
+   Boxplot para la variable peso.
+
+**Se puede concluir que:**
+
+   #. El promedio de peso de estas 45 personas es de 66.31 kg.
+   #. La moda fue de 55 kg.
+   #. La altura de la caja es de 12.93.
+   #. A partir de 55 kg (:math:`Q_2`), tanto a la derecha como a la izquierda, se encuentran el 50% de los datos.
+   #. Sobre la curtosis no se puede decir nada porque da negativa y este resultado es imposible considerando el algoritmo que se considera en este curso.
+   #. El rango fue de 45 kg.
+   #. El rango intercuartílico en donde se concentran una gran parte de los datos es de 22
+   #. Como el límite inferior dio 22, no hay ningún valor que se salga por la izquierda de este valor, entonces no hay puntos atípicos o (outliers) por la izquierda.
+   #. Como el límite superior dio 110, no hay ningún valor que se salga por la derecha de este valor, entonces no hay puntos atípicos o (outliers) por la derecha
+
+**Tarea**
+
+Realizar un diagrama de Box and Whiskers, con todos los procesos (valerse de Excel para los cálculos de los principales estadísticos o R) y con las fórmulas calcular los valores para los cuantiles, y dar mínimo 9 conclusiones
+Los datos representan los pesos en kg de 30 niños con edades comprendidas entre los 10 y 14 años, ver :numref:`fig:Figura5_guía4`.
+
+.. figure:: /images/capitulo_1/Guia_4/Figura5_guía4.png
+   :alt: ciencias
+   :scale: 100%
+   :align: center
+   :name: fig:Figura5_guía4
+
+   Datos
+
+Presentación de un diagrama de Box and Whiskers (ver :numref:`fig:Figura6_guía4`) elaborado con ayuda de Mega Stap de Excel, se tuvo en cuenta la variable peso disponible en el siguiente archivo. Descarga de archivo: :download:`Archivo de datos <Descargables/Archivo_1.pdf>`.
+
+.. figure:: /images/capitulo_1/Guia_4/Figura6_guía4.png
+   :alt: ciencias
+   :scale: 80%
+   :align: center
+   :name: fig:Figura6_guía4
+
+   Boxplot elaborado con MegaStat de Excel
+
+**Instalación del complemento MegaStat para Excel**
+
+.. raw:: html
+
+   <p align='center'><iframe width="560" height="315" src="https://www.youtube.com/embed/aHks9wugcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Enlace: https://drive.google.com/file/d/1uJg6TUnwRuOm8l6uMw2YAfFMuKKQiIhe/view

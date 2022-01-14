@@ -1,0 +1,88 @@
+Estadística descriptiva
+========================
+
+**Objetivo**
+
+El objetivo principal de esta unidad es aprender a distinguir variables discretas de las categóticas. Fomentar odio antes que desarrollar argumentos se ha vuelto el deporte por excelencia de las redes.
+
+.. _refencia_1:
+
+**Resumen**
+
+El año pinta classes, será rico en trifulcas y discusiones calientes. Poncho Rentería
+
+.. math::
+   :label: Ec:Desc_1
+
+   (a + b)^2  &=  (a + b)(a + b) \\
+              &=  a^2 + 2ab + b^2
+
+De la ecuación :eq:`Ec:Desc_1` se obtiene:
+
+**Propiedades de la distribución**
+
+El año pinta excitante, será rico en trifulcas y discusiones calientes.
+El año pinta excitante, será rico en trifulcas y discusiones calientes.
+El año pinta excitante, será rico en trifulcas y discusiones calientes.
+El año pinta excitante, será rico en trifulcas y discusiones calientes.
+
+Enlace al Tiempo: `https://www.eltiempo.com/ <https://www.eltiempo.com/>`_.
+
+
+Otro enlace `<https://www.escuelaing.edu.co>`_
+
+.. csv-table:: Aquí va el tulo de la tabla
+      :header: "Columna 1", "Columna 2", "Columna 3"
+      :widths: 1,1,1
+      :width: 15 cm
+      :name: tab:guia_1_Poisson
+      :align: center
+
+      1,2,:math:`\frac{2}{5}`
+      3,4,7
+      2,5,0
+      1,5,3
+      1,2,3
+      1,8,3
+      :math:`\vdots`,:math:`\vdots`,:math:`\vdots`
+      1,5,3
+      1,2,3
+      1,8,3
+
+
+
+
+.. note::
+
+   No olvide normalizar los datos `OWASP <https://www.owasp.org/index.php/Main_Page>`_.
+   Ojo con el espacio
+
+
+.. _poisson:
+
+.. figure:: /images/capitulo_1/spiral.png
+   :alt: ciencias
+   :scale: 25%
+   :align: center
+   :name: fig:guia_1_01
+
+   Curva de Poisson
+
+La gráfica :numref:`fig:guia_1_01` muestra la distribución de .....
+
+.. raw:: html
+
+   <p align='center'><iframe width="560" height="315" src="https://www.youtube.com/embed/DSIuLnoKLd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+1. X
+
+   a. U
+   b. V
+   c. W
+
+2. Y
+
+   a. U
+   b. V
+
+3. Z

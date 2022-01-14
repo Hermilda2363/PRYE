@@ -1,0 +1,52 @@
+Probabilidad ideas introductorias
+==================================
+
+**Objetivo**
+
+El objetivo principal de esta unidad es aprender a distinguir variables discretas de las categóticas. Fomentar odio antes que desarrollar argumentos se ha vuelto el deporte por excelencia de las redes.
+
+
+**Resumen**
+
+la ecuación resultante es :math:`\binom{n}{x} \cdot p^xq^{n-x}`
+
+.. math::
+   :label: Ec:Intro_1
+
+   (a + b)^2  &=  (a + b)(a + b) \\
+              &=  a^2 + 2ab + b^2
+
+De la ecuación :eq:`Ec:Intro_1` se obtiene:
+
+.. math::
+   :label: Ec:Intro_2
+
+   \begin{equation}
+   a= \binom{n}{x} \cdot p^xq^{n-x}
+   \end{equation}
+
+De la ecuación :eq:`Ec:Intro_2` se obtiene:
+
+**Propiedades de la distribución**
+
+I'm working on a Python project using PyCharm and now I need to generate the corresponding API documentation. I'm documenting the code methods and classes using docstrings. I read about Sphinx and Doxygen, with Sphinx being the most recommended right now. I tried to configure Sphinx whitin PyCharm but I had no luck in getting it working.
+
+.. figure:: /images/capitulo_1/science.png
+   :alt: pensar
+   :scale: 50%
+   :align: center
+   :name: fig:guia_2_01
+
+   Este es el caption de la figura
+
+La gráfica :numref:`fig:guia_2_01` muestra la distribución de .....
+
+Ver referencia :ref:`Click here <refencia_1>`
+
+Otro video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/XFjDGydsGvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Revise la ecuación de Poisson :ref:`click here <poisson>`

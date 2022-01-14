@@ -1,0 +1,343 @@
+Estadísticos Básicos
+====================
+**Tercera parte**
+
+Existen tres grandes grupos:
+
+#. **Según la ubicación:** Existen tres estadísticos importantes a saber:
+
+   a. La media o promedio aritmético.
+   b. La mediana o cuartil dos.
+   c. La moda
+
+#. **Según la dispersión:** Existen 4 estadísticos básicos:
+
+   a. El rango
+   b. El rango intercuartílico.
+   c. La desviación estándar o típica.
+   d. La varianza.
+
+
+#. **Según la forma:** Existen dos coeficientes especiales:
+
+   a. El coeficiente de asimetría (a).
+   b. El coeficiente de curtosis. (K).
+
+
+Veamos en detalle cada uno de estos:
+
+**I] Según la ubicación** (media, media y moda)
+
+    **1. La media o promedio aritmético:** (llamada también esperanza matemática)
+Se define como: (tener presente que existen la media poblacional y la media muestral)
+
+ **En la muestra:**  :math:`\bar{x} = \sum \dfrac{x_i}{n}` (n = tamaño de la muestra)
+
+ **En la población:** :math:`\mu = \sum \dfrac{X_i}{N}` (N = tamaño de la población)
+
+.. note::
+   Donde:  :math:`\bar{x}`  es la media muestral  y :math:`\mu`  es la media poblacional.
+
+
+**Ejercicios resueltos:** Calcular la media para los siguientes datos: (Utilizando el modo estadístico de su calculadora).
+
+   #. Intereses cobrados por 5 corporaciones: 2.5, 1.9, 2.2, 1.8, 2.7. (ver :numref:`fig:Figura_a_Guía3`)
+
+      .. figure:: /images/capitulo_1/Guia_3/Figura_a_Guía3.png
+         :alt: datos1
+         :scale: 100%
+         :align: center
+         :name: fig:Figura_a_Guía3
+
+         Promedio de intereses cobrados
+
+   #. Voltajes tomados en un laboratorio: 7 – 9 – 10 - 7.5 – 6.8 – 11 -  12 -  5. (ver :numref:`fig:Figura_b_Guía3`)
+
+      .. figure:: /images/capitulo_1/Guia_3/Figura_b_Guía3.png
+         :alt: datos2
+         :scale: 80%
+         :align: center
+         :name: fig:Figura_b_Guía3
+
+         Promedio de voltajes
+
+Estos cálculos se pueden hacer con ayuda de la calculadora o con Excel, R o cualquier otro programa estadístico.
+
+Ver los procesos para lograr el cálculo de estadísticos básicos con ayuda de Excel. PDF (Estadísticos con Excel).
+
+**Ventajas de la media:**
+
+    • Es fácil de calcular.
+    • Es de mucha utilidad en la vida práctica.
+    • Es Insesgada. (o sea que no arroja mucho error).
+
+**Desventajas de la media:**
+
+    • No es robusta. Esto significa que se ve afectada por cualquier cambio en uno de sus datos. En el caso del ejercicio propuesto sobre los interese cobrados por las 5 corporaciones; si nos equivocamos y en último dato escribimos 270 por 2.7, vemos que la media se altera completamente.
+
+    **2. La mediana.** Se define como el mismo cuartil dos (Q2) e indica el 50 % de los datos a la derecha y a la izquierda del cuartil 2,
+
+**Ejercicio:** Se tienen 5 datos, correspondiente a las edades de 5 niños:
+
+7 años
+5 años
+8 años
+9 años
+12 años
+
+Lo primero que se debe hacer es organizar estos datos de menor a mayor (orden creciente). Así: 5 – 7 – 8 – 9 – 12, como puede observarse, el dato del centro es: 8, esa es la media o también llamada cuartil 2 = Q2.
+
+**Ventajas de la mediana:**
+
+Es robusta. Volviendo al ejemplo anterior (de las edades de los 5 niños), si se coloca un dato mal, por ejemplo, en lugar de 12 colocamos 12.000, al organizar nuevamente los datos de menor a mayor se tiene: 5 - 7 – 8 – 9 – 12, de nuevo la mediana vuelve a ser = 8, por esta razón se dice que la mediana es robusta.
+
+**Desventajas de la mediana:**
+
+    • No tiene tanta aplicabilidad como la media aritmética.
+
+    **3. La moda.** Es el dato de mayor frecuencia, o el que más se repite.
+
+**Ejemplo 1:**
+
+Si en la clase hay 10 muchachos, de los cuales 7 usan Jean y los otros visten de paño, entonces la moda es el Jean.
+
+**Ejemplo 2:**
+
+Se tienen los siguientes datos que corresponden al peso en kg de 12 pavos para navidad.
+
+8
+9
+12
+14
+15
+10
+7
+8
+10
+12
+10
+12
+
+Como se puede apreciar hay dos modas: el 10 y el 12 porque ambos pesos se repiten igual cantidad de veces, de tal forma que puede haber más de una moda en un mismo grupo de datos.
+
+**II] Según la dispersión** se encuentran: el rango, el rango intercuartílico, la desviación estándar y la varianza)
+
+**1] El rango:** Se define como el valor máximo menos el valor mínimo. Este concepto fue necesario para construir los histogramas de barras. En los diagramas de Box and Whiskers (Box Plot) quedaría:
+
+
+
+**2] El rango Intercuartílico:** Es la diferencia entre el cuartil tres y el cuartil uno.
+
+Este concepto será muy útil en la elaboración de los diagramas de Box and Whiskers.
+
+
+**Ejercicio** calcular el rango y los cuartiles 1 y 3, para los siguientes datos: 5, 7, 8, 10, 11, 11, 11, 12, 15, 18, 19, 20
+
+El rango = Valor máximo – valor mínimo = Q4 – Q0 = 20 – 5 = 15
+
+
+
+**3] La desviación estándar o desviación típica.** es una medida de dispersión e indica que tan dispersos están los datos respecto de la media. Este estadístico tiene mucha aplicabilidad en muchos campos; por ejemplo, en ingenierías, porque nos ayuda a detectar si un equipo presenta mucha dispersión en la lectura de sus datos, lo que indicaría no estaría funcionando adecuadamente y se recomendaría, mandar a calibrarlo.
+
+**4] La varianza.** Se conoce por definición como la desviación estándar al cuadrado. (también es una medida de dispersión)
+
+
+
+Recordemos los datos para este ejercicio: 5, 7, 8, 10, 11, 11, 11, 12, 15, 18, 19, 20
+
+Con todos estos datos podemos ya intentar realizar el diagrama de Box and Whiskers (Box Plot o diagrama de caja y bigotes). Debe instalarse en el equipo otra aplicación de Excel que nos permite realizar de manera muy fácil este diagrama, se trata de Mega - Stat de Excel o también se puede lograr este importante diagrama con ayuda de R.
+Se necesita conocer:
+los cuartiles: Q0 = 5; Q1 = 8; Q2 = 11; Q3 = 18;  Q4 = 20.
+
+Los estadísticos según la ubicación: Media = 12.25; mediana = Q2 = 11
+
+La moda = 11
+
+Gráfica de Box and Whiskers (Box Plot a mano).
+
+Para este diagrama necesitamos tener listo los siguientes datos:
+
+**Los cuartiles:**
+
+Q0= 5; Q1 = 8; Q2 = 11 (la misma mediana); Q3 = 18; Q4 = 20,
+
+**El Rango** = Q4 – Q0 = 20 – 5 = 15
+
+**El Rango intercuartílico** = RI = Q3 – Q1 = 18 – 8 (da el ancho de la caja)
+
+**La media** = 12.25, recordemos que se distingue en la caja porque se marca con una pequeña rayita vertical dentro de la caja y sobre el eje x.
+
+**La mediana o cuartil 2** (Q2 = 11), a partir de este dato se dibujan las dos colas, una a la derecha (Q2 hasta Q4) y otra a la izquierda (Q0 hasta Q2), dependiendo de cuál de las dos colas sea la más larga, se puede decir cómo será el coeficiente de asimetría: si el bigote más largo es el de la izquierda, la asimetría será negativa, pero si el bigote más largo es el de la derecha, la asimetría será positiva. El cálculo de este estadístico es muy engorroso de lograr a mano, se prefiere entonces apoyarse en algún tipo de software estadístico como Excel, R o cualquier otro programa.
+
+Por ejemplo, si la distancia que hay entre Q0 y Q2 fuera 5 y la distancia entre Q2 y Q4 fuera 10, entonces la cola más larga sería la de la derecha y en este caso se diría que el coeficiente de asimetría es positivo o con cola a la derecha. La gráfica aproximada podría ser: (ver :numref:`fig:Figura_1_Guía3`)
+
+.. figure:: /images/capitulo_1/Guia_3/Figura_1_Guía3.png
+   :alt: datos2
+   :scale: 80%
+   :align: center
+   :name: fig:Figura_1_Guía3
+
+   Boxplot 1 con asimetría positiva
+
+En caso de que la distancia entre Q0 y Q2 fuera por ejemplo = 12 y la distancia entre Q2 y Q4 fuera 4, entonces se podría apreciar en la caja que la cola izquierda sería la más larga, en este caso se dice que el coeficiente de asimetría es negativo o con cola a la izquierda. La gráfica aproximada podría ser: (ver :numref:`fig:Figura_2_Guía3`)
+
+.. figure:: /images/capitulo_1/Guia_3/Figura_2_Guía3.png
+   :alt: datos2
+   :scale: 80%
+   :align: center
+   :name: fig:Figura_2_Guía3
+
+   Boxplot 1 con asimetría negativa
+
+Los gráficos anteriores aún son incompletos, pero ya nos dan una buena aproximación de los que son los diagramas de Box and Whiskers o los Box Plot (también conocidos como diagramas de caja y bigotes).
+
+Es importante tener en cuenta que:
+
+La media se representa con una rayita pequeña que va dentro de la caja
+la moda se representa con un punto que va dentro de la caja o Box plot.
+La mediana se representa con una raya que parte la caja en dos, semejante a una I.
+La desviación estándar o típica representa la altura de la caja, por eso es muy importante este estadístico en la construcción del diagrama de Box and Whiskers (caja y bigotes o Box Plot).
+
+**III] Según la Forma se encuentran:** el coeficiente de asimetría y el coeficiente de curtosis)
+
+**1) El coeficiente de asimetría.** Que indica cómo es la forma de la gráfica, respecto a la tendencia de los datos.
+
+Desde este punto de vista se presentan tres casos:
+
+   #. **Cuando a = 0.** Recibe el nombre de curva simétrica (ver :numref:`fig:Figura_3_Guía3`)
+
+      .. figure:: /images/capitulo_1/Guia_3/Figura_3_Guía3.png
+         :alt: datos2
+         :scale: 80%
+         :align: center
+         :name: fig:Figura_3_Guía3
+
+         Curva simétrica
+
+   #. **Cuando a > 0.** Recibe el nombre de curva asimétrica positiva o con cola a la derecha. (Ver :numref:`fig:Figura_4_Guía3`)
+
+      .. figure:: /images/capitulo_1/Guia_3/Figura_4_Guía3.png
+         :alt: datos2
+         :scale: 80%
+         :align: center
+         :name: fig:Figura_4_Guía3
+
+         Curva asimétrica positiva
+
+   #. **Cuando a < 0.** Recibe el nombre de curva asimétrica negativa o con cola a la izquierda. (Ver :numref:`fig:Figura_5_Guía3`)
+
+      .. figure:: /images/capitulo_1/Guia_3/Figura_5_Guía3.png
+         :alt: datos2
+         :scale: 80%
+         :align: center
+         :name: fig:Figura_5_Guía3
+
+         Curva asimétrica negativa
+
+
+**2) Coeficiente de curtosis.** Este coeficiente indica que tan chata o apuntada (alta) es una curva.
+
+
+Se presentan tres casos.
+
+    #. **Cuando K = 3** (valores entre 2.5 y 3.5). La curva se llama mesocúrtica. Tiene una altura apropiada. No muy alta no muy plana. (Ver :numref:`fig:Figura_6_Guía3`)
+
+       .. figure:: /images/capitulo_1/Guia_3/Figura_6_Guía3.png
+          :alt: datos2
+          :scale: 80%
+          :align: center
+          :name: fig:Figura_6_Guía3
+
+          Curva mesocúrtica
+
+    #. **Cuando K < 2.5** La curva se llama platicúrtica. Es una curva muy plana o achatada. (Ver :numref:`fig:Figura_7_Guía3`)
+
+       .. figure:: /images/capitulo_1/Guia_3/Figura_7_Guía3.png
+          :alt: datos2
+          :scale: 80%
+          :align: center
+          :name: fig:Figura_7_Guía3
+
+          Curva platicúrtica
+
+    #. **Cuando K > 3.5** La curva se llama leptocúrtica. Es una curva muy alta. (Ver :numref:`fig:Figura_8_Guía3`)
+
+       .. figure:: /images/capitulo_1/Guia_3/Figura_8_Guía3.png
+          :alt: datos2
+          :scale: 80%
+          :align: center
+          :name: fig:Figura_8_Guía3
+
+          Curva leptocúrtica
+
+
+Se mencionaron algunas ventajas y desventajas de los anteriores estadísticos básicos porque estos estadísticos al ser estimadores poseen estas ventajas propias de los estimadores.
+Recordemos que trabajaremos casi siempre con muestras, por esta razón estaremos haciendo estimaciones permanentemente para una población. (las poblaciones son muy difíciles de manejar por lo grandes, por no tener acceso a ellas, por encontrarse muy alejadas o en general por que el estudio detallado completo de estas resultaría muy complejo además de lo costoso, por eso nos apoyamos en el muestreo. Si estudiamos toda la población estaríamos haciendo un censo, lo cual no es necesario.
+
+Los estimadores que más trabajaremos en clase son: La media, la varianza, la desviación estándar, el coeficiente de correlación de Pearson entre otros.
+
+En forma general podemos decir que los estimadores cumplen con las siguientes propiedades:
+
+   #. **Ser insesgado:** Es decir, lo que esperamos es que a partir de una muestra podamos obtener el verdadero valor del parámetro poblacional.
+
+      Por ejemplo: Si Juanita obtuvo las siguientes notas: 2.5, 3.8, 1.7, 4.8, entonces en promedio obtuvo: 3.2 como calificación (si todas las notas valían lo mismo). Si Juanita estudiaba con otros 39 compañeritos, y por estadísticas se sabe que obtiene un promedio de nota del curso de 3.2, con la muestra (notas de Juanita), como con todas las notas (40 estudiantes – de un curso vacacional de sistemas), se obtuvo la misma nota, podemos decir que se cumple la propiedad mencionada.
+
+   #. **Ser eficiente:** Es el que tiene menos varianza.
+
+      Por ejemplo, si se tienen los siguientes intereses cobrados por dos corporaciones:
+
+      **CORPORACION A:**
+      2.5
+      1.8
+      1.9
+      2.5
+      2.4
+      3.2
+      3.5
+      3.7
+      3.5
+
+
+      **CORPORACION B:**
+      0.9
+      0.8
+      1.2
+      1.3
+      1.4
+      1.5
+      1.2
+      1.5
+      1.6
+
+
+      Para la corporación A, la varianza es: :math:`s_{n-1}^2=0.5119`
+
+      Para la comparación B, la varianza es: :math:`s_{n-1}^2=0.075`
+
+      La corporación de menos varianza es la corporación B, por tanto, es la más eficiente y desde el punto de vista de los intereses cobrados, podríamos pensar que es la más confiable, porque cobra intereses más constantes, que la primera (corporación A), la cual presenta mucha fluctuación en el cobro de estos intereses.
+
+   #. **Ser robusta:** Es el que no se ve afectado por datos extremadamente grandes o pequeños como ocurre con la mediana.
+
+   #. **Ser consistente:** Significa que en la medida que aumentemos el tamaño de muestra en un estudio que estemos realizando, obtendremos mejores resultados. Entonces la consistencia se logra al aumentar el tamaño de la muestra.
+
+.. note::
+   ¿Cómo lograr los estadísticos básicos en Excel?
+
+(Ver :numref:`fig:Figura_9_Guía3`)
+
+   .. figure:: /images/capitulo_1/Guia_3/Figura_9_Guía3.png
+      :alt: datos2
+      :scale: 80%
+      :align: center
+      :name: fig:Figura_9_Guía3
+
+      Cálculo de estadísticos básicos con EXCEL
+
+En la siguiente guía (guía 4) se presentarán estos diagramas ya de forma completa. Con **MEGASTAT** de Excel es muy sencillo de realizar, pero para que queden muy bonitos, toca completarlos manualmente, si así se desea o se lo exigen.
+
+
+
+
+
+
+
