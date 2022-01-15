@@ -1,6 +1,3 @@
-**IV. Cuarta parte**
-
-===============================
 Diagramas de Box and Whiskers
 ===============================
 

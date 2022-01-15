@@ -1,6 +1,5 @@
 Estadísticos Básicos
 ====================
-**Tercera parte**
 
 Existen tres grandes grupos:
 
@@ -29,6 +28,7 @@ Veamos en detalle cada uno de estos:
 **I] Según la ubicación** (media, media y moda)
 
     **1. La media o promedio aritmético:** (llamada también esperanza matemática)
+
 Se define como: (tener presente que existen la media poblacional y la media muestral)
 
  **En la muestra:**  :math:`\bar{x} = \sum \dfrac{x_i}{n}` (n = tamaño de la muestra)
@@ -63,7 +63,20 @@ Se define como: (tener presente que existen la media poblacional y la media mues
 
 Estos cálculos se pueden hacer con ayuda de la calculadora o con Excel, R o cualquier otro programa estadístico.
 
-Ver los procesos para lograr el cálculo de estadísticos básicos con ayuda de Excel. PDF (Estadísticos con Excel).
+
+.. note::
+   ¿Cómo lograr los estadísticos básicos en Excel?
+
+(Ver :numref:`fig:Figura_9_Guía3`)
+
+   .. figure:: /images/capitulo_1/Guia_3/Figura_9_Guía3.png
+      :alt: datos2
+      :scale: 80%
+      :align: center
+      :name: fig:Figura_9_Guía3
+
+      Cálculo de estadísticos básicos con EXCEL
+
 
 **Ventajas de la media:**
 
@@ -320,20 +333,7 @@ En forma general podemos decir que los estimadores cumplen con las siguientes pr
 
    #. **Ser consistente:** Significa que en la medida que aumentemos el tamaño de muestra en un estudio que estemos realizando, obtendremos mejores resultados. Entonces la consistencia se logra al aumentar el tamaño de la muestra.
 
-.. note::
-   ¿Cómo lograr los estadísticos básicos en Excel?
-
-(Ver :numref:`fig:Figura_9_Guía3`)
-
-   .. figure:: /images/capitulo_1/Guia_3/Figura_9_Guía3.png
-      :alt: datos2
-      :scale: 80%
-      :align: center
-      :name: fig:Figura_9_Guía3
-
-      Cálculo de estadísticos básicos con EXCEL
-
-En la siguiente guía (guía 4) se presentarán estos diagramas ya de forma completa. Con **MEGASTAT** de Excel es muy sencillo de realizar, pero para que queden muy bonitos, toca completarlos manualmente, si así se desea o se lo exigen.
+En la guía 4 se presentarán estos diagramas ya de forma completa. Con **MEGASTAT** de Excel es muy sencillo de realizar, pero para que queden muy bonitos, toca completarlos manualmente, si así se desea o se lo exigen.
 
 
 
